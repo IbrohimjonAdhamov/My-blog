@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrohimjon's</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="navbar__container">
+    <ul class="navbar__menu">
+  <li class="navbar__item"><a href="{{ url_for('sherlar') }}" class="navbar__link">She'rlar</a></li>
+  <li class="navbar__item"><a href="{{ url_for('hikoyalar') }}" class="navbar__link">Hikoyalar</a></li>
+  <li class="navbar__item"><a href="{{ url_for('esseylar') }}" class="navbar__link">Esseylar</a></li>
+  <li class="navbar__item"><a href="{{ url_for('muallif') }}" class="navbar__link">Muallif haqida</a></li>
+</ul>
+
+    <div class="navbar__quote">“Fikrlar yozishga arzir ekan, ulashish uchun joy albatta topiladi.”</div>
+  </div>
+</nav>
+
+</body>
+</html>
